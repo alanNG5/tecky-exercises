@@ -1,0 +1,466 @@
+Last login: Mon Oct 30 09:34:40 on ttys001
+lc@LdeMacBook-Air ~ % ls
+Applications	Downloads	Music		Public		許可證.pdf
+Desktop		Library		Pictures	live-cast
+Documents	Movies		Pre-course	tecky-exercises
+lc@LdeMacBook-Air ~ % cd
+lc@LdeMacBook-Air ~ % ls
+Applications	Downloads	Music		Public		許可證.pdf
+Desktop		Library		Pictures	live-cast
+Documents	Movies		Pre-course	tecky-exercises
+lc@LdeMacBook-Air ~ % cd ls
+cd: no such file or directory: ls
+lc@LdeMacBook-Air ~ % cd tecky-exercises
+lc@LdeMacBook-Air tecky-exercises % ls
+my-file.txt
+lc@LdeMacBook-Air tecky-exercises % mkdir a
+lc@LdeMacBook-Air tecky-exercises % madir a/b
+zsh: command not found: madir
+lc@LdeMacBook-Air tecky-exercises % mkdir a/b
+lc@LdeMacBook-Air tecky-exercises % ls
+a		my-file.txt
+lc@LdeMacBook-Air tecky-exercises % ls *
+my-file.txt
+
+a:
+b
+lc@LdeMacBook-Air tecky-exercises % ls */*
+lc@LdeMacBook-Air tecky-exercises % ls /*
+/Applications:
+Adobe Acrobat DC		Google Chrome.app		ProtonVPN.app
+Adobe Creative Cloud		Keynote.app			Safari.app
+Adobe Illustrator 2022		Kindle.app			Telegram.app
+Adobe Photoshop 2022		Logic Pro X.app			Utilities
+Adobe Premiere Pro 2022		MainStage 3.app			Visual Studio Code.app
+Android File Transfer.app	Microsoft Edge.app		iMovie.app
+Compressor.app			Motion.app			pgAdmin 4.app
+Final Cut Pro.app		Numbers.app			zoom.us.app
+GarageBand.app			Pages.app
+GitHub Desktop.app		Postgres.app
+
+/Library:
+Apple			DriverExtensions	LaunchDaemons		ScriptingAdditions
+Application Support	Extensions		Logs			Scripts
+Audio			Filesystems		Microsoft		Security
+Automator		Fonts			Modem Scripts		Speech
+Bluetooth		Frameworks		OSAnalytics		Spotlight
+Caches			GPUBundles		OpenDirectory		StagedDriverExtensions
+Catacomb		Google			PDF Services		StagedExtensions
+ColorPickers		Graphics		Perl			StartupItems
+ColorSync		Image Capture		PreferencePanes		SystemExtensions
+Components		Input Methods		Preferences		SystemMigration
+Compositions		InstallerSandboxes	Printers		SystemProfiler
+Contextual Menu Items	Internet Plug-Ins	PrivilegedHelperTools	Trial
+CoreAnalytics		Java			QuickLook		Updates
+CoreMediaIO		KernelCollections	Receipts		User Pictures
+Developer		Keyboard Layouts	Ruby			User Template
+DirectoryServices	Keychains		Sandbox			Video
+Documentation		LaunchAgents		Screen Savers		WebServer
+
+/System:
+Applications	Developer	Library		iOSSupport
+Cryptexes	DriverKit	Volumes
+
+/Users:
+NeroN	Shared	lc
+
+/Volumes:
+Data		Macintosh HD
+
+/bin:
+[		date		kill		mv		sh		wait4path
+bash		dd		ksh		pax		sleep		zsh
+cat		df		launchctl	ps		stty
+chmod		echo		link		pwd		sync
+cp		ed		ln		realpath	tcsh
+csh		expr		ls		rm		test
+dash		hostname	mkdir		rmdir		unlink
+
+/cores:
+
+/dev:
+aes_0				ptysb				ttyq3
+afsc_type5			ptysc				ttyq4
+apfs-raw-device.2.0		ptysd				ttyq5
+auditpipe			ptyse				ttyq6
+auditsessions			ptysf				ttyq7
+autofs				ptyt0				ttyq8
+autofs_control			ptyt1				ttyq9
+autofs_homedirmounter		ptyt2				ttyqa
+autofs_notrigger		ptyt3				ttyqb
+autofs_nowait			ptyt4				ttyqc
+bpf0				ptyt5				ttyqd
+bpf1				ptyt6				ttyqe
+bpf2				ptyt7				ttyqf
+bpf3				ptyt8				ttyr0
+console				ptyt9				ttyr1
+cu.Bluetooth-Incoming-Port	ptyta				ttyr2
+cu.wlan-debug			ptytb				ttyr3
+disk0				ptytc				ttyr4
+disk0s1				ptytd				ttyr5
+disk0s2				ptyte				ttyr6
+disk0s3				ptytf				ttyr7
+disk1				ptyu0				ttyr8
+disk1s1				ptyu1				ttyr9
+disk1s2				ptyu2				ttyra
+disk1s3				ptyu3				ttyrb
+disk1s4				ptyu4				ttyrc
+disk2				ptyu5				ttyrd
+disk2s1				ptyu6				ttyre
+disk2s2				ptyu7				ttyrf
+disk3				ptyu8				ttys0
+disk3s1				ptyu9				ttys000
+disk3s1s1			ptyua				ttys1
+disk3s2				ptyub				ttys2
+disk3s3				ptyuc				ttys3
+disk3s4				ptyud				ttys4
+disk3s5				ptyue				ttys5
+disk3s6				ptyuf				ttys6
+dtrace				ptyv0				ttys7
+dtracehelper			ptyv1				ttys8
+fbt				ptyv2				ttys9
+fd				ptyv3				ttysa
+fsevents			ptyv4				ttysb
+klog				ptyv5				ttysc
+lockstat			ptyv6				ttysd
+monotonic			ptyv7				ttyse
+nfsclnt				ptyv8				ttysf
+nsmb0				ptyv9				ttyt0
+null				ptyva				ttyt1
+oslog				ptyvb				ttyt2
+oslog_stream			ptyvc				ttyt3
+perfmon_core			ptyvd				ttyt4
+perfmon_uncore			ptyve				ttyt5
+pf				ptyvf				ttyt6
+pfm				ptyw0				ttyt7
+profile				ptyw1				ttyt8
+ptmx				ptyw2				ttyt9
+ptyp0				ptyw3				ttyta
+ptyp1				ptyw4				ttytb
+ptyp2				ptyw5				ttytc
+ptyp3				ptyw6				ttytd
+ptyp4				ptyw7				ttyte
+ptyp5				ptyw8				ttytf
+ptyp6				ptyw9				ttyu0
+ptyp7				ptywa				ttyu1
+ptyp8				ptywb				ttyu2
+ptyp9				ptywc				ttyu3
+ptypa				ptywd				ttyu4
+ptypb				ptywe				ttyu5
+ptypc				ptywf				ttyu6
+ptypd				random				ttyu7
+ptype				rdisk0				ttyu8
+ptypf				rdisk0s1			ttyu9
+ptyq0				rdisk0s2			ttyua
+ptyq1				rdisk0s3			ttyub
+ptyq2				rdisk1				ttyuc
+ptyq3				rdisk1s1			ttyud
+ptyq4				rdisk1s2			ttyue
+ptyq5				rdisk1s3			ttyuf
+ptyq6				rdisk1s4			ttyv0
+ptyq7				rdisk2				ttyv1
+ptyq8				rdisk2s1			ttyv2
+ptyq9				rdisk2s2			ttyv3
+ptyqa				rdisk3				ttyv4
+ptyqb				rdisk3s1			ttyv5
+ptyqc				rdisk3s1s1			ttyv6
+ptyqd				rdisk3s2			ttyv7
+ptyqe				rdisk3s3			ttyv8
+ptyqf				rdisk3s4			ttyv9
+ptyr0				rdisk3s5			ttyva
+ptyr1				rdisk3s6			ttyvb
+ptyr2				stderr				ttyvc
+ptyr3				stdin				ttyvd
+ptyr4				stdout				ttyve
+ptyr5				tty				ttyvf
+ptyr6				tty.Bluetooth-Incoming-Port	ttyw0
+ptyr7				tty.wlan-debug			ttyw1
+ptyr8				ttyp0				ttyw2
+ptyr9				ttyp1				ttyw3
+ptyra				ttyp2				ttyw4
+ptyrb				ttyp3				ttyw5
+ptyrc				ttyp4				ttyw6
+ptyrd				ttyp5				ttyw7
+ptyre				ttyp6				ttyw8
+ptyrf				ttyp7				ttyw9
+ptys0				ttyp8				ttywa
+ptys1				ttyp9				ttywb
+ptys2				ttypa				ttywc
+ptys3				ttypb				ttywd
+ptys4				ttypc				ttywe
+ptys5				ttypd				ttywf
+ptys6				ttype				uart.wlan-debug
+ptys7				ttypf				urandom
+ptys8				ttyq0				zero
+ptys9				ttyq1
+ptysa				ttyq2
+
+/etc:
+afpovertcp.cfg				ntp_opendirectory.conf
+aliases					openldap
+aliases.db				pam.d
+apache2					passwd
+asl					paths
+asl.conf				paths.d
+auto_home				periodic
+auto_master				pf.anchors
+autofs.conf				pf.conf
+bashrc					pf.os
+bashrc_Apple_Terminal			postfix
+com.apple.screensharing.agent.launchd	ppp
+csh.cshrc				profile
+csh.login				protocols
+csh.logout				racoon
+cups					rc.common
+defaults				rc.netboot
+find.codes				resolv.conf
+ftpusers				rmtab
+gettytab				rpc
+group					rtadvd.conf
+hosts					security
+hosts.equiv				services
+irbrc					shells
+kern_loader.conf			snmp
+krb5.keytab				ssh
+localtime				ssl
+locate.rc				sudo_lecture
+mail.rc					sudoers
+man.conf				sudoers.d
+manpaths				syslog.conf
+manpaths.d				ttys
+master.passwd				uucp
+networks				wfs
+newsyslog.conf				xtab
+newsyslog.d				zprofile
+nfs.conf				zshrc
+notify.conf				zshrc_Apple_Terminal
+ntp.conf
+
+/home:
+
+/opt:
+homebrew
+
+/private:
+etc		tftpboot	tmp		var
+
+/sbin:
+apfs_hfs_convert	fstyp_ntfs		mount_devfs		newfs_hfs
+apfs_unlockfv		fstyp_udf		mount_exfat		newfs_msdos
+disklabel		halt			mount_fdesc		newfs_udf
+dmesg			ifconfig		mount_ftp		nfsd
+dynamic_pager		kextload		mount_hfs		nfsiod
+fibreconfig		kextunload		mount_lifs		nologin
+fsck			launchd			mount_msdos		pfctl
+fsck_apfs		md5			mount_nfs		ping
+fsck_cs			mknod			mount_smbfs		ping6
+fsck_exfat		mount			mount_tmpfs		quotacheck
+fsck_hfs		mount_9p		mount_udf		reboot
+fsck_msdos		mount_acfs		mount_virtiofs		route
+fsck_udf		mount_afp		mount_webdav		shutdown
+fstyp			mount_apfs		mpioutil		umount
+fstyp_hfs		mount_cd9660		newfs_apfs
+fstyp_msdos		mount_cddafs		newfs_exfat
+
+/tmp:
+412AEFB4-3E82-4252-90DD-B8AB2808D4A9	com.adobe.AdobeIPCBroker.ctrl-lc
+6DE4CDA7-59A5-4FC3-9912-7EF4485C47BE	com.apple.launchd.jKSlBahoM3
+710F2E1A-B71F-4E13-8EBE-594DB5BC8374	com.google.Keystone
+A61FF74C-CD1E-4917-A553-792242471821	powerlog
+ExmanProcessMutex			ss_conn_service2.pid
+
+/usr:
+X11		bin		libexec		sbin		standalone
+X11R6		lib		local		share
+
+/var:
+MobileSoftwareUpdate	dirs_cleaner		mail			select
+OOPJit			empty			msgs			sntpd
+agentx			folders			netboot			spool
+at			install			networkd		tmp
+audit			jabberd			personalized_factory	vm
+backups			lib			protected		yp
+containers		log			root
+db			logs			rpc
+dextcores		ma			run
+lc@LdeMacBook-Air tecky-exercises % ls
+a		my-file.txt
+lc@LdeMacBook-Air tecky-exercises % mkdir -p a2/b2/c2
+lc@LdeMacBook-Air tecky-exercises % ls -l
+total 0
+drwxr-xr-x  3 lc  staff   96 10 30 11:15 a
+drwxr-xr-x  4 lc  staff  128 10 30 11:17 a2
+-rw-r--r--  1 lc  staff    0 10 30 11:04 my-file.txt
+lc@LdeMacBook-Air tecky-exercises % ls -l > list.txt
+lc@LdeMacBook-Air tecky-exercises % cat list.txt
+total 0
+drwxr-xr-x  3 lc  staff   96 10 30 11:15 a
+drwxr-xr-x  4 lc  staff  128 10 30 11:17 a2
+-rw-r--r--  1 lc  staff    0 10 30 11:18 list.txt
+-rw-r--r--  1 lc  staff    0 10 30 11:04 my-file.txt
+lc@LdeMacBook-Air tecky-exercises % ls
+a		a2		list.txt	my-file.txt
+lc@LdeMacBook-Air tecky-exercises % ls -l
+total 8
+drwxr-xr-x  3 lc  staff   96 10 30 11:15 a
+drwxr-xr-x  4 lc  staff  128 10 30 11:17 a2
+-rw-r--r--  1 lc  staff  198 10 30 11:18 list.txt
+-rw-r--r--  1 lc  staff    0 10 30 11:04 my-file.txt
+lc@LdeMacBook-Air tecky-exercises % ls -l -h
+total 8
+drwxr-xr-x  3 lc  staff    96B 10 30 11:15 a
+drwxr-xr-x  4 lc  staff   128B 10 30 11:17 a2
+-rw-r--r--  1 lc  staff   198B 10 30 11:18 list.txt
+-rw-r--r--  1 lc  staff     0B 10 30 11:04 my-file.txt
+lc@LdeMacBook-Air tecky-exercises % ls -l > list.txt
+lc@LdeMacBook-Air tecky-exercises % rm list.txt
+lc@LdeMacBook-Air tecky-exercises % ls -l > list.txt
+lc@LdeMacBook-Air tecky-exercises % cat list.txt
+total 0
+drwxr-xr-x  3 lc  staff   96 10 30 11:15 a
+drwxr-xr-x  4 lc  staff  128 10 30 11:17 a2
+-rw-r--r--  1 lc  staff    0 10 30 11:22 list.txt
+-rw-r--r--  1 lc  staff    0 10 30 11:04 my-file.txt
+lc@LdeMacBook-Air tecky-exercises % ls -l >> list.txt
+lc@LdeMacBook-Air tecky-exercises % cat list.txt
+total 0
+drwxr-xr-x  3 lc  staff   96 10 30 11:15 a
+drwxr-xr-x  4 lc  staff  128 10 30 11:17 a2
+-rw-r--r--  1 lc  staff    0 10 30 11:22 list.txt
+-rw-r--r--  1 lc  staff    0 10 30 11:04 my-file.txt
+total 8
+drwxr-xr-x  3 lc  staff   96 10 30 11:15 a
+drwxr-xr-x  4 lc  staff  128 10 30 11:17 a2
+-rw-r--r--  1 lc  staff  198 10 30 11:22 list.txt
+-rw-r--r--  1 lc  staff    0 10 30 11:04 my-file.txt
+lc@LdeMacBook-Air tecky-exercises % echo
+
+lc@LdeMacBook-Air tecky-exercises % e
+zsh: command not found: e
+lc@LdeMacBook-Air tecky-exercises % echo d
+d
+lc@LdeMacBook-Air tecky-exercises % script
+Script started, output file is typescript
+lc@LdeMacBook-Air tecky-exercises % ls
+a		a2		list.txt	my-file.txt	typescript
+lc@LdeMacBook-Air tecky-exercises % ls -l
+total 16
+drwxr-xr-x  3 lc  staff   96 10 30 11:15 a
+drwxr-xr-x  4 lc  staff  128 10 30 11:17 a2
+-rw-r--r--  1 lc  staff  396 10 30 11:24 list.txt
+-rw-r--r--  1 lc  staff    0 10 30 11:04 my-file.txt
+-rw-r--r--  1 lc  staff   43 10 30 11:26 typescript
+lc@LdeMacBook-Air tecky-exercises % exit
+
+Saving session...
+...copying shared history...
+...saving history...truncating history files...
+...completed.
+
+Script done, output file is typescript
+lc@LdeMacBook-Air tecky-exercises % ls -l -h
+total 16
+drwxr-xr-x  3 lc  staff    96B 10 30 11:15 a
+drwxr-xr-x  4 lc  staff   128B 10 30 11:17 a2
+-rw-r--r--  1 lc  staff   396B 10 30 11:24 list.txt
+-rw-r--r--  1 lc  staff     0B 10 30 11:04 my-file.txt
+-rw-r--r--  1 lc  staff   1.3K 10 30 11:27 typescript
+lc@LdeMacBook-Air tecky-exercises % cat typescript
+Script started on Mon Oct 30 11:26:47 2023
+lc@LdeMacBook-Air tecky-exercises % ls
+a		a2		list.txt	my-file.txt	typescript
+lc@LdeMacBook-Air tecky-exercises % ls -l
+total 16
+drwxr-xr-x  3 lc  staff   96 10 30 11:15 a
+drwxr-xr-x  4 lc  staff  128 10 30 11:17 a2
+-rw-r--r--  1 lc  staff  396 10 30 11:24 list.txt
+-rw-r--r--  1 lc  staff    0 10 30 11:04 my-file.txt
+-rw-r--r--  1 lc  staff   43 10 30 11:26 typescript
+lc@LdeMacBook-Air tecky-exercises % exit
+
+Saving session...
+...copying shared history...
+...saving history...truncating history files...
+...completed.
+
+Script done on Mon Oct 30 11:27:15 2023
+lc@LdeMacBook-Air tecky-exercises % group
+zsh: command not found: group
+lc@LdeMacBook-Air tecky-exercises % groups
+staff everyone localaccounts _appserverusr admin _appserveradm _lpadmin _appstore _lpoperator _developer _analyticsusers com.apple.access_ftp com.apple.access_screensharing com.apple.access_ssh com.apple.access_remote_ae com.apple.sharepoint.group.1 com.apple.sharepoint.group.2 com.apple.sharepoint.group.3
+lc@LdeMacBook-Air tecky-exercises % ls
+a		a2		list.txt	my-file.txt	typescript
+lc@LdeMacBook-Air tecky-exercises % echo echo hello
+echo hello
+lc@LdeMacBook-Air tecky-exercises % echo echo hello > hello
+lc@LdeMacBook-Air tecky-exercises % ls
+a		a2		hello		list.txt	my-file.txt	typescript
+lc@LdeMacBook-Air tecky-exercises % ls -l
+total 24
+drwxr-xr-x  3 lc  staff    96 10 30 11:15 a
+drwxr-xr-x  4 lc  staff   128 10 30 11:17 a2
+-rw-r--r--  1 lc  staff    11 10 30 11:34 hello
+-rw-r--r--  1 lc  staff   396 10 30 11:24 list.txt
+-rw-r--r--  1 lc  staff     0 10 30 11:04 my-file.txt
+-rw-r--r--  1 lc  staff  1293 10 30 11:27 typescript
+lc@LdeMacBook-Air tecky-exercises % cat hello 
+echo hello
+lc@LdeMacBook-Air tecky-exercises % ./hello
+zsh: permission denied: ./hello
+lc@LdeMacBook-Air tecky-exercises % chmod +x hello
+lc@LdeMacBook-Air tecky-exercises % ls -l hello
+-rwxr-xr-x  1 lc  staff  11 10 30 11:34 hello
+lc@LdeMacBook-Air tecky-exercises % ./hello
+hello
+lc@LdeMacBook-Air tecky-exercises % ls -l
+total 24
+drwxr-xr-x  3 lc  staff    96 10 30 11:15 a
+drwxr-xr-x  4 lc  staff   128 10 30 11:17 a2
+-rwxr-xr-x  1 lc  staff    11 10 30 11:34 hello
+-rw-r--r--  1 lc  staff   396 10 30 11:24 list.txt
+-rw-r--r--  1 lc  staff     0 10 30 11:04 my-file.txt
+-rw-r--r--  1 lc  staff  1293 10 30 11:27 typescript
+lc@LdeMacBook-Air tecky-exercises % echo 'read -p "what is your name" name'
+read -p "what is your name" name
+lc@LdeMacBook-Air tecky-exercises % echo 'read -p "what is your name" name' > greet
+lc@LdeMacBook-Air tecky-exercises % echo 'echo hello, $name' >> greet
+lc@LdeMacBook-Air tecky-exercises % cat greet
+read -p "what is your name" name
+echo hello, $name
+lc@LdeMacBook-Air tecky-exercises % ./greet
+zsh: permission denied: ./greet
+lc@LdeMacBook-Air tecky-exercises % ls -l
+total 32
+drwxr-xr-x  3 lc  staff    96 10 30 11:15 a
+drwxr-xr-x  4 lc  staff   128 10 30 11:17 a2
+-rw-r--r--  1 lc  staff    51 10 30 11:37 greet
+-rwxr-xr-x  1 lc  staff    11 10 30 11:34 hello
+-rw-r--r--  1 lc  staff   396 10 30 11:24 list.txt
+-rw-r--r--  1 lc  staff     0 10 30 11:04 my-file.txt
+-rw-r--r--  1 lc  staff  1293 10 30 11:27 typescript
+lc@LdeMacBook-Air tecky-exercises % chmod +x greet
+lc@LdeMacBook-Air tecky-exercises % ls -l greet
+-rwxr-xr-x  1 lc  staff  51 10 30 11:37 greet
+lc@LdeMacBook-Air tecky-exercises % cat greet
+read -p "what is your name" name
+echo hello, $name
+lc@LdeMacBook-Air tecky-exercises % ./greet
+what is your name
+hello,
+lc@LdeMacBook-Air tecky-exercises % ./greet
+what is your namealan
+hello, alan
+lc@LdeMacBook-Air tecky-exercises % stat greet
+16777232 37838795 -rwxr-xr-x 1 lc staff 0 51 "Oct 30 11:37:42 2023" "Oct 30 11:37:41 2023" "Oct 30 11:38:12 2023" "Oct 30 11:37:16 2023" 4096 8 0 greet
+lc@LdeMacBook-Air tecky-exercises % chmod 700 greet
+lc@LdeMacBook-Air tecky-exercises % stat greet
+16777232 37838795 -rwx------ 1 lc staff 0 51 "Oct 30 11:37:42 2023" "Oct 30 11:37:41 2023" "Oct 30 11:42:09 2023" "Oct 30 11:37:16 2023" 4096 8 0 greet
+lc@LdeMacBook-Air tecky-exercises % 
+
+
+
+
+==========
+Last login: Mon Oct 30 11:13:47 on ttys000
+lc@LdeMacBook-Air ~ % cd live-cast
+lc@LdeMacBook-Air live-cast % node run-client

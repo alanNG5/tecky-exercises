@@ -1,0 +1,18 @@
+Script started on Mon Oct 30 11:26:47 2023
+[1m[7m%[27m[1m[0m                                                                                                       ]7;file://LdeMacBook-Air.local/Users/lc/tecky-exercises[0m[27m[24m[Jlc@LdeMacBook-Air tecky-exercises % [K[?2004hlls[?2004l
+a		a2		list.txt	my-file.txt	typescript
+[1m[7m%[27m[1m[0m                                                                                                       ]7;file://LdeMacBook-Air.local/Users/lc/tecky-exercises[0m[27m[24m[Jlc@LdeMacBook-Air tecky-exercises % [K[?2004hlls -l[?2004l
+total 16
+drwxr-xr-x  3 lc  staff   96 10 30 11:15 a
+drwxr-xr-x  4 lc  staff  128 10 30 11:17 a2
+-rw-r--r--  1 lc  staff  396 10 30 11:24 list.txt
+-rw-r--r--  1 lc  staff    0 10 30 11:04 my-file.txt
+-rw-r--r--  1 lc  staff   43 10 30 11:26 typescript
+[1m[7m%[27m[1m[0m                                                                                                       ]7;file://LdeMacBook-Air.local/Users/lc/tecky-exercises[0m[27m[24m[Jlc@LdeMacBook-Air tecky-exercises % [K[?2004heexit[?2004l
+
+Saving session...
+...copying shared history...
+...saving history...truncating history files...
+...completed.
+
+Script done on Mon Oct 30 11:27:15 2023

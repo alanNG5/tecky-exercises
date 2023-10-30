@@ -1,0 +1,10 @@
+total 0
+drwxr-xr-x  3 lc  staff   96 10 30 11:15 a
+drwxr-xr-x  4 lc  staff  128 10 30 11:17 a2
+-rw-r--r--  1 lc  staff    0 10 30 11:22 list.txt
+-rw-r--r--  1 lc  staff    0 10 30 11:04 my-file.txt
+total 8
+drwxr-xr-x  3 lc  staff   96 10 30 11:15 a
+drwxr-xr-x  4 lc  staff  128 10 30 11:17 a2
+-rw-r--r--  1 lc  staff  198 10 30 11:22 list.txt
+-rw-r--r--  1 lc  staff    0 10 30 11:04 my-file.txt
